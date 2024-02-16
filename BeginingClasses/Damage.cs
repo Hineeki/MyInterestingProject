@@ -9,7 +9,7 @@
 
         public Damage(TypeOfImpact damageType, int minValue, int maxValue)
         {
-            this.DamageType = damageType;
+            DamageType = damageType;
             MinValue = minValue;
             MaxValue = maxValue;
         }
